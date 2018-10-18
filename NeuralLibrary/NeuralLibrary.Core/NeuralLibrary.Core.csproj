@@ -31,6 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NeuralLibrary.Math">
+      <HintPath>..\..\libs\NeuralLibrary.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="NeuralLibrary.Tool">
+      <HintPath>..\..\libs\NeuralLibrary.Tool.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,4 +52,7 @@
     <Compile Include="TrainingParam.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetDir)*.dll $(ProjectDir)..\..\libs\</PostBuildEvent>
+  </PropertyGroup>
 </Project>

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using NeuralLibrary.Math.Matrix;
+using NeuralLibrary.Tool;
 
 namespace NeuralLibrary.Core
 {
@@ -28,7 +30,7 @@ namespace NeuralLibrary.Core
             SampleSize = input.Row;
             InputNumber = input.Column;
             OutputNumber = output.Column;
-
+            
             // init matrix
             WeightInput = new SimpleMatrix(InputNumber, HiddenNumber);
             WeightOutput = new SimpleMatrix(HiddenNumber, OutputNumber);
@@ -86,7 +88,7 @@ namespace NeuralLibrary.Core
                     var oVal = output.Item2;
 
                     var errorTuple = VectorErrorRate(oVal, curOutput);
-                    var thisError = Math.Pow(errorTuple.Item1, 2);
+                    var thisError = System.Math.Pow(errorTuple.Item1, 2);
                     curError += thisError;
                     curMaxMember += errorTuple.Item2;
 
@@ -137,7 +139,7 @@ namespace NeuralLibrary.Core
                     }
                 }
 
-                var errorRate = Math.Sqrt(curError / SampleSize);
+                var errorRate = System.Math.Sqrt(curError / SampleSize);
                 var maxErrorMemberAver = curMaxMember / SampleSize;
 
                 errorRateList.Add(errorRate);

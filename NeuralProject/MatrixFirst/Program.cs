@@ -1,5 +1,5 @@
-﻿using NeuralDefs;
-using NeuralDefs.Matrix;
+﻿using NeuralLibrary.Core;
+using NeuralLibrary.Math.Matrix;
 
 namespace MatrixFirst
 {
