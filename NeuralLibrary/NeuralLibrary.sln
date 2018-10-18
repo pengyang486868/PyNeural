@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NeuralDefs", "NeuralDefs\NeuralDefs.pyproj", "{B506F2E8-1B27-4195-8E3F-2C810BD97856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralLibrary.Core", "NeuralLibrary.Core\NeuralLibrary.Core.csproj", "{F06BE117-5FAE-4A42-8BCB-FBDDE7A7CC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralLibrary.Math", "NeuralLibrary.Math\NeuralLibrary.Math.csproj", "{C789577D-B5D7-4506-8A02-2FEB6806E6F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralLibrary.Tool", "NeuralLibrary.Tool\NeuralLibrary.Tool.csproj", "{F17C4259-E289-4423-84B8-47274CFE2205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B506F2E8-1B27-4195-8E3F-2C810BD97856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B506F2E8-1B27-4195-8E3F-2C810BD97856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06BE117-5FAE-4A42-8BCB-FBDDE7A7CC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06BE117-5FAE-4A42-8BCB-FBDDE7A7CC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06BE117-5FAE-4A42-8BCB-FBDDE7A7CC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06BE117-5FAE-4A42-8BCB-FBDDE7A7CC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C789577D-B5D7-4506-8A02-2FEB6806E6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C789577D-B5D7-4506-8A02-2FEB6806E6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C789577D-B5D7-4506-8A02-2FEB6806E6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C789577D-B5D7-4506-8A02-2FEB6806E6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17C4259-E289-4423-84B8-47274CFE2205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17C4259-E289-4423-84B8-47274CFE2205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17C4259-E289-4423-84B8-47274CFE2205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17C4259-E289-4423-84B8-47274CFE2205}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAD3E885-61DA-4487-B282-9D7A1486D67A}
+	EndGlobalSection
+EndGlobal
